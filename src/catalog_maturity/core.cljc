@@ -2,8 +2,8 @@
   "Scoring truth for a reference CATALOG: how mature is it, where is it weakest,
   and what is the highest-leverage thing to do next.
 
-  A library, not an orchestrator (see loop-ux-kaizen's
-  `resources/repository-rules.edn`): it computes and ranks, it never fetches,
+  A library, not an orchestrator (see the workspace taxonomy in
+  com-junkawasaki/root `manifest/repository-rules.edn`): it computes and ranks, it never fetches,
   writes, or schedules. `loop-*` repos own the running; this owns the meaning
   of the numbers, so the rubric can be tested and reused without standing up a
   runner.
