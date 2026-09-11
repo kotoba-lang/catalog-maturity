@@ -33,4 +33,4 @@ they were badly misleading. Breadth without concentration is a vanity metric.
 
 ## Test
 
-    nbb --classpath "src:test" run_tests.cljs
+    nbb --classpath "src:test" run_tests.cljk
